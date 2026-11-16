@@ -1,24 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Dependencies
 
-## Getting Started
+Design ==> Tailwind <!-- * Done -->
+icons ==> Tabler <!-- * Done -->
+Form ==> Reat hook form <!-- * Done -->
+Api ==> Axios <!-- * Done -->
+Client Side Management ==> Redux + react tools <!-- * Done -->
+Server Side Management ==> TanStack query + devtools <!-- * Done -->
+Validation ==> Zod <!-- * Done -->
+toast ==> sonner <!-- * Done -->
+slider ==> swiper
+### Pages
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+signup <!-- * Done -->
+login <!-- * Done -->
+forget password <!-- * Done -->
+reset password <!-- * Done -->
+Home page <!-- * Done -->
+product details <!-- * Done -->
+cart <!-- * Done -->
+wishlist <!-- * Done -->
+orders <!-- * Done -->
+categories <!-- * Done -->
+brands <!-- * Done -->
+search <!-- * Done -->
+shop <!-- * Done -->
+terms <!-- * Done -->
+privacy policy <!-- * Done -->
+contact <!-- * Done -->
+profile (address, settings) <!-- * Done -->
+not-found <!-- * Done -->
 
 ## Learn More
 
