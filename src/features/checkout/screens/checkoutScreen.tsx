@@ -35,7 +35,7 @@ export default function CheckoutScreen() {
 
   // Redux state
   const cartResponse = useSelector((state: appStateType) => state.cartReducer);
-  const cartId = cartResponse?.data?._id;
+  const cartId = cartResponse?.cartId;
   const cartProducts = cartResponse?.data?.products ?? [];
   const cartTotal = cartResponse?.data?.totalCartPrice ?? 0;
   const shippingCost = cartTotal >= 500 || cartTotal === 0 ? 0 : 50;
